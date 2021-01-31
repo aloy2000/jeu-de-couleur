@@ -8,6 +8,7 @@ body,html{
     background-color: #232323;
     font-size: 20px;
     text-transform: uppercase;
+    
 }
 
 h1{
@@ -22,6 +23,7 @@ h1{
      text-align: center;
      width: 100%;
      background: #2C8E99;
+     transition: background-color 0.4s;
      
  }
 
@@ -52,6 +54,7 @@ h1{
      transition: color 0.3s;
 
  }
+
  .menu .new-color:hover, .menu .level:hover{
      background-color: #2C8E99;
      color: white;
@@ -77,5 +80,12 @@ h1{
      border: 1px solid white;
      border-radius: 19%;
      transition: opacity 2s;
+ }
+
+ .header .win{
+     font-weight: 500;
+     font-style: oblique;
+     font-size: 20px;
+     margin-right: 40%;
  }
  

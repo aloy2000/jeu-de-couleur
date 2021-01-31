@@ -76,7 +76,8 @@ main(0,5); // appelle de la fonction main
 function answerOrNot(number){
     var i = number;
     var replayTxt = document.getElementById('replay');
-    
+    var header = document.getElementById('header');
+
     if(answer == number){
         result.textContent = "Gagné";
         result.style.color = "green";
@@ -90,7 +91,9 @@ function answerOrNot(number){
 
         colors = [];
         answer = null;
+        header.style.background = "rgb("+red+","+green+","+blue+")";
         replayTxt.textContent = "Rejouer";
+                
         return;
     }
     else{
