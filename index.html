@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de couleur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Le grand jeu de devinette</h1>
+        <h1 id="rgb"></h1>
+        <div class="menu" id="menuu">
+            <span class="new-color" id="replay" onclick="replay()">Nouveau couleur</span>
+            <span id="result"></span>
+            <span class="level" onclick="level(0)">Facile</span>
+            <span class="level" onclick="level(1)">Difficille</span>
+        </div>
+    </header>
+    <main class="main" id="block">
+        <div class="color" onclick="answerOrNot(0)"></div>
+        <div class="color" onclick="answerOrNot(1)"></div>
+        <div class="color" onclick="answerOrNot(2)"></div>
+        <div class="color" onclick="answerOrNot(3)"></div>
+        <div class="color" onclick="answerOrNot(4)"></div>
+        <div class="color" onclick="answerOrNot(5)"></div>
+    </main>
+    <script src="app.js"></script>
+<!--The trambo is mandady-->
+</body>
+</html>

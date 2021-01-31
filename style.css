@@ -1,0 +1,81 @@
+/**
+* the trambo is mandady
+*/
+
+body,html{
+    margin: 0;
+    font-family: "Raleway", Sans-serif;
+    background-color: #232323;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: aliceblue;
+    font-weight: 400;
+    font-style: italic;
+}
+ .header{
+     position: absolute;
+     left: 0;
+     top: 0;
+     text-align: center;
+     width: 100%;
+     background: #2C8E99;
+     
+ }
+
+ .menu{
+     padding-left: 380px;
+     text-align: left;
+     color: #2C8E99;
+     height: 50px;
+     background: white;
+     font-size: 15px;
+ }
+
+ .menu .new-color{
+     display: inline-block;
+     padding-top: 16px;
+     padding-bottom: 16px;
+     margin-right: 260px;
+     transition: background-color 0.5s;
+     transition: color 0.3s;
+ }
+
+ .menu .level{
+     display: inline-block;
+     padding-top: 16px;
+     padding-bottom: 16px;
+     margin-right: 20px;
+     transition: background-color 0.3s;
+     transition: color 0.3s;
+
+ }
+ .menu .new-color:hover, .menu .level:hover{
+     background-color: #2C8E99;
+     color: white;
+     cursor: pointer;   
+ }
+
+ .active{
+     color: white;
+     background: #2C8E99;
+ }
+
+ .main{
+     width: 560px;
+     margin-top: 220px;
+     margin-left: 420px;
+ }
+
+ .main .color{
+     display: inline-flex;
+     width: 150px;
+     height: 150px;
+     margin: 15px;
+     border: 1px solid white;
+     border-radius: 19%;
+     transition: opacity 2s;
+ }
+ 
