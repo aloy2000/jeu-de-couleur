@@ -1,6 +1,10 @@
 /**
  * The trambo is mandady
  * variables global
+ * Tsy de bonne pratique fa refa mety fotsiny lo de zay e
+ * tokony oe 3 tentatives iany de ra maresy de trambo ela fa ra resy de rip fa za mo zany kamo be
+ * de aleo lo amnio 
+ * mila mibossy tsara efa ho 3e année zao ra sanatria tsy manao 2é session, tandremo mivarina fa tode nafinaritra ny fiarahana zalah
  */
 var answer;
 var colors;
